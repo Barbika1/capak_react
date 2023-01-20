@@ -15,7 +15,7 @@ function Capak() {
                     {capa.name}
                 </h1>
                 <img className="kep" src={capa.photoUrl} alt={capa.name}/>
-                <h2>{capa.category}</h2>
+                <h3>{capa.category}</h3>
                 <p>{capa.description}</p>
             </div>
         ))
